@@ -1,0 +1,9 @@
+{
+  "name": "Ruta Segura Colegios",
+  "description": "Describe la ruta segura que comunica los puntos de encuentro con los colegios y permite calcular la ruta desde una ubicación dada hasta el punto de encuentro más cercano.",
+  "createdTime": 1554552777382,
+  "lastUpdated": 1554633865363,
+  "creator": "mGIS.4",
+  "icon": "images/icon.jpeg",
+  "thumbnail": "images/thumbnail.jpeg"
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Markazi+Text');
+
+.jimu-main-font {
+    font-family: 'Bellefair', serif;
+}
+
+.jimu-foldable-panel .title-label {
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.jimu-widget {
+    font-size: 17px;
+    font-weight: normal;
+    color: #000;
+}
+
+.col1 {
+    margin-right: 10px;
+}
+
+.arcgisSearch .searchIcon {
+  color: #7A99AC;
+  font-size: 20px;
+}
+
+.esriPopup .actionsPane {
+  display: none;
+}
+
+button{
+  padding: 6px;
+  border-radius: 15px;
+}
+
+#btnDrawEvent{
+  width: 30px;
+  height: 30px;
+}
+
+#btnClear{
+  background-color: #ffffdd;
+}
+
+#btnSolve{
+  background-color: #ffffdd;
+}
+#eventSymbol{
+  fill: rgb(181, 185, 4);
+  fill-opacity: 0.9;
+  stroke: rgb(181, 185, 4);
+  stroke-opacity: 0.5;
+  stroke-width: 10;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  cx: 242;
+  cy: 479;
+  r: 10;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  fill-rule: evenodd;
+  stroke-dasharray: none;
+}

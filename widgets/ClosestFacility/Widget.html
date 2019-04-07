@@ -1,0 +1,60 @@
+<div>
+	<div>
+		<div>
+			Indica tu ubicación con una de las 3 formas posibles
+			para calcular la ruta hasta el puntode encuentro más
+			cercano y podir ir con tus compañeros hasta el colegio.
+		</div>
+	</div>
+	<br>
+	<div>
+		<div>Calcula tu ubicación actual: </div>
+		<div id="LocateButton"></div>
+		<br>
+		<div>Escribe una dirección:</div>
+		<div id="search"></div>
+		<table>
+			<tr>
+				<td class="col1">Indica tu posición en el mapa:</td>
+				<td>
+					<img id="btnDrawEvent" src="widgets/ClosestFacility/images/w_addstart.png" title="Add incidents to be allocated to nearby facilities" width="20" height="20" style="vertical-align:middle; cursor:pointer;">
+				</td>
+			</tr>
+			<tr>
+				<td class="col1">Número de rutas posibles a calcular:</td>
+				<td>
+					<select id="numFacilities">
+						<option value="1" selected="selected">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<!-- <option value="4">4</option> -->
+					</select>
+				</td>
+			</tr>
+			<br>
+			<tr>
+				<td class="col1">
+					<input type="checkbox" id="chkLimitTravelTime" style="vertical-align:middle;" />
+					<label for="chkLimitTravelTime" title="Check to limit the travel time allowed in the solution">Tiempo máximo de camino (minutos):</label>
+					<br>
+				</td>
+				<br>
+				<td><input id="numMaxTravelTime" disabled="disabled" type="number" value="10" step="5" min="5" max="300" onfocus="this.oldValue = this.value;" /></td>
+			</tr>
+
+			<tr>
+				<td class="col1">
+					<button id="btnSolve" disabled="disabled" style="vertical-align:middle;" title="Solve and display the results">Calcular</button>
+					<div id="busyIndicator" style="vertical-align:middle; visibility:visible; display:inline-block; height:50px; width:50px;"></div>
+				</td>
+				<td>
+					<button id="btnClear" title="Clear all events, barriers, and results">Limpiar</button>
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+	<hr>
+	<div id="directionsDiv"> </div>
+</div>
